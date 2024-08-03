@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABEL FORMS</title>
+</head>
+
+<body>
+    <h1>THIS IS A TUTORIAL ABOUT FORMS IN HTML</h1>
+    <form action="backend.php">
+        <label for="name">NAME</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">ROLE</label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="number">NUMBER</label>
+        <div>
+            <input type="number" name="myNumber" id="number">
+        </div>
+        <br>
+        <label for="time">TIME</label>
+        <div>
+            <input type="time" name="mytime" id="time">
+        </div>
+        <br>
+        <label for="date">DATE</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="datetime">DATE & TIME</label>
+        <div>
+            <input type="datetime-local" name="myDateTime" id="datetime">
+        </div>
+        <br>
+        <label for="gender">GENDER</label>
+        <div>
+            Male <input type="radio" name="myGender" id="gender"> Female <input type="radio" name="myGender"
+                id="gender"> Other <input type="radio" name="myGender" id="gender">
+        </div>
+        <br>
+        <label for="textarea">Write about Yourself :</label>
+        <div>
+            <textarea name="myText" rows="10" cols="40" id="textarea"></textarea>
+        </div>
+        <br>
+        <label for="car">CHOOSE YOUR CAR</label>
+        <div>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="toyota">Toyota Supra</option>
+                <option value="suzuki">Maruti Suzuki</option>
+                <option value="swift">Swift</option>
+            </select>
+        </div>
+        <br>
+        <label for="check">CHECK</label>
+        <div>
+            Are you Eligible? : <input type="checkbox" name="myCheckbox" id="check"><br>
+            Already checked? : <input type="checkbox" name="myCheckbox" checked id="check">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
