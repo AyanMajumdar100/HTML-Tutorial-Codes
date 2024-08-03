@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Examples</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        /* Internal CSS */
+        h1 {
+            color: blue;
+        }
+
+        .inline-style {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS -->
+    <h1 style="text-align: center;">Welcome to HTML and CSS Examples</h1>
+
+    <h2>HTML Tags and Elements</h2>
+    <p>This is a paragraph using the <code>&lt;p&gt;</code> tag.</p>
+    <p>This is another paragraph with a <strong>strong</strong> text using the <code>&lt;strong&gt;</code> tag and an
+        <em>emphasized</em> text using the <code>&lt;em&gt;</code> tag.</p>
+    <p class="inline-style">This paragraph uses an inline style class.</p>
+    <br>
+    <hr>
+
+    <h2>Images and Links</h2>
+    <img src="image1.jpg" alt="Sample Image" width="300">
+    <p>Visit <a href="https://www.example.com" target="_blank">Example.com</a> for more information.</p>
+
+    <h2>Lists</h2>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+
+    <h2>Tables</h2>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+
+    <h2>Forms</h2>
+    <form action="submit.html" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Divs, IDs, and Classes</h2>
+    <div id="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>HTML Entities</h2>
+    <p>Some special characters: &amp; &lt; &gt; &copy; &euro; &yen;</p>
+
+    <h2>Semantic Elements</h2>
+    <header>
+        <h1>Header Section</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Article Title</h2>
+            <p>This is an article section.</p>
+        </article>
+        <section>
+            <h2>Section Title</h2>
+            <p>This is a section.</p>
+        </section>
+        <aside>
+            <h2>Aside Title</h2>
+            <p>This is an aside section.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Footer Section</p>
+    </footer>
+</body>
+
+</html>
