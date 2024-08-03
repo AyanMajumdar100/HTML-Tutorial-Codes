@@ -61,7 +61,7 @@ The project consists of simple HTML files demonstrating different HTML elements 
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/AyanMajumdar100/HTML-Tutorial-Codes.git
+    git clone https://github.com/AyanMajumdar100/HTML-Tutorial-For-Beginners.git
     cd HTML-Tutorial-Codes
     ```
 
